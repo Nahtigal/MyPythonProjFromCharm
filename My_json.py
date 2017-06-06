@@ -27,3 +27,5 @@ for user in json_data:
     print('Player name is: ' + str(user['Name']))
     print('Player score is: ' + str(user['Score']))
     print('Player skills is: ' + str(user['Skills']))
+
+# And this is really good and proper work version
