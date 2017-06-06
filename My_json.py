@@ -13,7 +13,14 @@ player2 = {
     'Skills': ['Invisibility', 'IronFist']
 }
 
-z = [player1,  player2]
+player3 = {
+    'Name': 'Oleg',
+    'Score': '1000',
+    'Skills': ['Really cool feaches', 'Some staff']
+}
+
+
+z = [player1,  player2, player3]
 
 json.dump(z, f)
 
